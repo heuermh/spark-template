@@ -3,6 +3,7 @@ spark-template
 
 Template routes for Spark web framework:
 
+```java
     get(new VelocityTemplateRoute("/hello/:name") {
       @Override
       public Object handle(final Request request, final Response response) {
@@ -10,8 +11,9 @@ Template routes for Spark web framework:
         return template("hello.wm").render("person", person);
       }
     });
+```
 
-
+  
 To build
 
     $ mvn install
@@ -36,7 +38,7 @@ Then open
 in a browser.
 
 
-
+  
 To add a new Template engine
 
  - Create a new module
