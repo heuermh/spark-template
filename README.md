@@ -1,7 +1,15 @@
 spark-template
 ==============
 
-Template routes for Spark web framework
+Template routes for Spark web framework:
+
+    get(new VelocityTemplateRoute("/hello/:name") {
+      @Override
+      public Object handle(final Request request, final Response response) {
+        Person person = Person.find(request.params("name"));
+        return template("hello.wm").render("person", person);
+      }
+    });
 
 
 To build
