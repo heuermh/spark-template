@@ -17,22 +17,22 @@ To build velocity example
 
 To run velocity example
 
-    $ java -jar 
     $ java -jar target/spark-template-velocity-example-0.9.9.5-SNAPSHOT-jar-with-dependencies.jar 
     == Spark has ignited ...
     >> Listening on 0.0.0.0:4567
 
-Open
+Then open
 
     http://localhost:4567/hello/foo
 
 in a browser.
 
 
+
 To add a new Template engine
 
  - Create a new module
  - Add dependency to spark-template
- - Add dependenc(ies) to new template engine
+ - Add dependency to new template engine
  - Extend https://github.com/heuermh/spark-template/blob/master/api/src/main/java/spark/template/TemplateRoute.java
  - (optional) Create a new example module
