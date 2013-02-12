@@ -13,7 +13,7 @@ Template routes for Spark web framework:
     });
 ```
 
-  
+<br/>
 To build
 
     $ mvn install
@@ -37,8 +37,7 @@ Then open
 
 in a browser.
 
-
-  
+<br/>  
 To add a new Template engine
 
  - Create a new module
