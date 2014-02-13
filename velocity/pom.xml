@@ -21,7 +21,7 @@ limitations under the License.
   <parent>
     <groupId>com.sparkjava</groupId>
     <artifactId>spark-template-multimodule</artifactId>
-    <version>0.9.9.7-SNAPSHOT</version>
+    <version>1.1.1</version>
   </parent>
   <artifactId>spark-template-velocity</artifactId>
   <packaging>jar</packaging>
