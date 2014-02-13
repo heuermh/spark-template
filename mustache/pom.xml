@@ -26,7 +26,7 @@ limitations under the License.
   <artifactId>spark-template-mustache</artifactId>
   <packaging>jar</packaging>
 
-  <name>spark-template-velocity</name>
+  <name>spark-template-mustache</name>
   <description>Template routes based on Mustache.java</description>
 
   <properties>
