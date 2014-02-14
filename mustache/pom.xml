@@ -21,12 +21,12 @@ limitations under the License.
   <parent>
     <groupId>com.sparkjava</groupId>
     <artifactId>spark-template-multimodule</artifactId>
-    <version>0.9.9.7-SNAPSHOT</version>
+    <version>1.1.1</version>
   </parent>
   <artifactId>spark-template-mustache</artifactId>
   <packaging>jar</packaging>
 
-  <name>spark-template-velocity</name>
+  <name>spark-template-mustache</name>
   <description>Template routes based on Mustache.java</description>
 
   <properties>
@@ -38,7 +38,7 @@ limitations under the License.
       <dependency>
         <groupId>com.github.spullara.mustache.java</groupId>
         <artifactId>compiler</artifactId>
-        <version>0.8.9</version>
+        <version>0.8.14</version>
       </dependency>
       <dependency>
         <groupId>com.sparkjava</groupId>
