@@ -1,10 +1,14 @@
 spark-template
 ==============
 
+###@Deprecated
+
 __Note__:  This repo is not necessarily up-to-date and compatible with the current release of Spark.
 It should be considered deprecated in favor of the sparkling-template module merged into the sparkling
 fork of Spark at https://github.com/heuermh/sparkling.
 
+
+####Legacy docs
 
 Template routes for Spark web framework:
 
